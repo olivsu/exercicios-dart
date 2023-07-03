@@ -1,9 +1,9 @@
-// class Tarefa {
-//   String descricao;
-//   bool concluida;
+class Tarefa {
+  String descricao;
+  bool concluida;
   
-//   Tarefa(this.descricao, {this.concluida = false});
-// }
+  Tarefa(this.descricao, {this.concluida = false});
+}
 
 List<Tarefa> tarefas = [];
 
